@@ -1,6 +1,66 @@
 body{
-	margin: 0;
+		font-family: 'Marker', Chalkdust, 'Helvetica', 'Arial', sans-serif;
+
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 20px;
+		/*puts space between lines*/
+		line-height: 30px; 
 }
 header{
-	background-color: #d14635;
+	background-color: #F30BE9;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
 }
+
+h1,h2 {
+	font-family: 'Marko One', serif;
+}
+
+header h1{
+	color: white;
+}
+/*the following didn't work.*/
+header img{
+	border-radius: 250px;
+	width: 180px;
+	border: 5px solid #000000;
+}
+main{
+	max-width: 800px;
+	/*padding value 1 is top/bottom*/
+	padding: 20px;
+}
+/*this sets the width of images inside the main element.*/
+main img{
+	max-width: 10%;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 25px;
+	color: #0B47F3;
+}
+a{
+	color: #0B47F3;
+	/*many list items are black because they are not yet links.*/
+}
+a:hover{
+	background-color: #F30BE9;
+	color: white;
+}
+footer p{
+	margin: 0;
+}
+footer{
+	background-color: #F30BE9;
+	text-align: center;
+	color: white;
+	padding-left: 0px;
+}
+/*Also covered was to create a class of "caption" in "p" in html (class="caption") In css, create
+p.caption{color: gray;*/
+/*to eliminate extra space, use margin: 0*/
